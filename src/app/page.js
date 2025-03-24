@@ -1,103 +1,143 @@
 import Image from "next/image";
-
+import Nav from "./components/nav"
+import Footer from "./components/footer"
+import Link from "next/link";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div>
+      <Nav></Nav>
+      <main>
+        <div className="flex flex-row mt-12 w-[85%] mx-[7.5%] ">
+          <div className="w-1/3 pl-12 flex justify-end flex-col h-[650px]">
+            <h1 className="text-6xl font-thin text-gray-400 my-2">PROJECT</h1>
+            <h1 className="text-5xl my-2"><strong>Lorum</strong></h1>
+            <div className="flex flex-row justify-between w-[100px] my-12">
+              <button className="border p-2 border-gray-300"><Image src="/assets/flechai.png" width={20} height={20} /></button>
+              <button className="border p-2 bg-gray-50 border-gray-300"><Image src="/assets/flechad.png" width={20} height={20} /></button>
+            </div>
+            <div className="flex flex-row w-[120px] justify-between">
+              <h3 className="text-lg text-gray-300 my-4"> 01 </h3>
+              <h3 className="text-lg text-gray-300 my-4"> / </h3>
+              <h3 className="text-lg text-gray-300 my-4"> 02 </h3>
+            </div>
+          </div>
+          <div className="w-[70%] ml-40 bg-gray-200">
+            <Image src="/assets/image1.png" alt="" width={770} height={829} />
+            <button className="flex flex-row w-[250px] bg-white h-[70px] items-center mt-18 absolute top-190"><h3 className="mx-4">VIEW PROJECT</h3> <Image src="/assets/flechad.png" width={20} height={20} /></button>
+          </div>
+        </div>
+        <div className="bg-gray-50 m-12 w-[85%] flex flex-row mx-[7.5%]">
+          <div className="flex flex-col w-[35%]  pl-20 pr-8 pt-8">
+            <Image src="/assets/image2.png" width={270} height={265} />
+            <Image className="absolute top-300" src="/assets/image3.png" width={270} height={140} />
+          </div>
+          <div className="  flex mr-8 justify-center py-12 w-[25%]">
+            <Image src="/assets/image4.png" width={270} height={345} />
+          </div>
+          <div className="w-1/3 py-8">
+            <h1 className="text-5xl text-gray-300">About</h1>
+            <p className="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <button className="flex flex-row w-[250px] bg-white h-[70px] items-center mt-18"><h3 className="mx-4">READ MORE</h3> <Image src="/assets/flechad.png" width={20} height={20} /></button>
+          </div>
+        </div>
+        <div className="flex flex-col w-[85%] mx-[7.5%] mt-24">
+          <h1 className="text-5xl text-gray-300">Main Focus/Mission Statement</h1>
+          <div className="flex flex-row  mt-8 w-full justify-between">
+            <div className="flex flex-row w-[30%] mt-2">
+              <h1 className="text-9xl text-gray-200 mr-8"><strong>1</strong></h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</p>
+            </div>
+            <div className="flex flex-row w-[50%] mt-2">
+              <h1 className="text-9xl text-gray-200 mr-8"><strong>2</strong></h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat, magna mauris porttitor tortor, a auctor est felis ut nisl.</p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col w-[85%] mx-[7.5%] mt-12">
+          <h1 className="text-5xl text-gray-300">Our Projects</h1>
+          <div className="flex flex-row justify-between mt-8">
+            <div className="relative">
+              <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
+                <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
+                <h1 className="text-white text-6xl"><strong>Project</strong></h1>
+                <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
+                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                </Link>
+              </div>
+              <Image src="/assets/img5.png" width={570} height={225} />
+            </div>
+            <div className="relative">
+              <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
+                <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
+                <h1 className="text-white text-6xl"><strong>Project</strong></h1>
+                <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
+                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                </Link>
+              </div>
+              <Image src="/assets/img1.png" width={570} height={225} />
+            </div>
+          </div>
+          <div className="flex flex-row justify-between mt-8">
+            <div className="relative">
+              <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
+                <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
+                <h1 className="text-white text-6xl"><strong>Project</strong></h1>
+                <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
+                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                </Link>
+              </div>
+              <Image src='/assets/img4.png' width={270} height={225} />
+            </div>
+            <div className="relative">
+              <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
+                <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
+                <h1 className="text-white text-6xl"><strong>Project</strong></h1>
+                <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
+                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                </Link>
+              </div>
+              <Image src='/assets/img3.png' width={470} height={225} />
+            </div>
+            <div className="relative">
+              <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
+                <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
+                <h1 className="text-white text-6xl"><strong>Project</strong></h1>
+                <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
+                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                </Link>
+              </div>
+              <Image src='/assets/img2.png' width={370} height={225} />
+            </div>
+          </div>
+          <div className="flex justify-end">
+            <Link href="/projectss"><button className="flex flex-row w-[250px] bg-black h-[70px] items-center mt-18"><h3 className="mx-4 text-white">ALL PROJECTS</h3> <Image src="/assets/flechadb.png" width={50} height={20} /></button></Link>
+          </div>
+        </div>
+        <div className="flex flex-col w-[85%] m-[7.5%] ">
+          <h1 className="text-5xl text-gray-300">Contact Us</h1>
+          <div className="flex flex-row justify-between">
+            <div className="flex flex-col w-[38%]">
+              <input className=" bg-gray-200 p-2 my-3" type="text" placeholder="Name" />
+              <input className=" bg-gray-200 p-2 my-3" type="text" placeholder="Phone Number *" />
+              <input className=" bg-gray-200 p-2 my-3" type="text" placeholder="E-mail *" />
+              <input className=" bg-gray-200 p-2 my-3" type="text" placeholder="Interested In" />
+              <div className="h-[105px] bg-gray-200 p-2 my-2">
+                <input
+                  type="text"
+                  placeholder="Message *"
+                />
+              </div>
+            </div>
+            <div >
+              <Image src='/assets/img6.png' width={749} height={369} />
+            </div>
+          </div>
+          <div>
+            <button className="flex flex-row w-[250px] bg-black h-[70px] items-center mt-18"><h3 className="mx-4 text-white">SEND EMAIL</h3> <Image src="/assets/flechadb.png" width={50} height={20} /></button>
+          </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }
