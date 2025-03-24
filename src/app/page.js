@@ -31,13 +31,13 @@ export default function Home() {
             <Image src="/assets/image2.png" alt="image2"  width={270} height={265} />
             <Image className="absolute top-300" src="/assets/image3.png"  alt="image3"  width={270} height={140} />
           </div>
-          <div className="  flex mr-8 justify-center py-12 w-[25%]">
+          <div className="flex mr-8 justify-center py-12 w-[25%]">
             <Image src="/assets/image4.png"  alt="image4"  width={270} height={345} />
           </div>
           <div className="w-1/3 py-8">
             <h1 className="text-5xl text-gray-300">About</h1>
             <p className="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <button className="flex flex-row w-[250px] bg-white h-[70px] items-center mt-18"><h3 className="mx-4">READ MORE</h3> <Image src="/assets/flechad.png" width={20} height={20} /></button>
+            <button className="flex flex-row w-[250px] bg-white h-[70px] items-center mt-18"><h3 className="mx-4">READ MORE</h3> <Image src="/assets/flechad.png" alt="flecha derecha" width={20} height={20} /></button>
           </div>
         </div>
         <div className="flex flex-col w-[85%] mx-[7.5%] mt-24">
@@ -86,17 +86,17 @@ export default function Home() {
                   <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
                 </Link>
               </div>
-              <Image src='/assets/img4.png'  alt="image4" width={270} height={225} />
+              <Image src="/assets/img4.png"  alt="image4" width={270} height={225} />
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
                 <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
                 <h1 className="text-white text-6xl"><strong>Project</strong></h1>
                 <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
-                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                  <Image className="ml-2" src="/assets/flechadb.png" alt="flecha blanca" width={25} height={25} />
                 </Link>
               </div>
-              <Image src='/assets/img3.png' alt="img3"  width={470} height={225} />
+              <Image src="/assets/img3.png" alt="img3"  width={470} height={225} />
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
@@ -106,11 +106,11 @@ export default function Home() {
                   <Image className="ml-2" src="/assets/flechadb.png" alt="flecha blanca 1" width={25} height={25} />
                 </Link>
               </div>
-              <Image src='/assets/img2.png'  alt="image2"  width={370} height={225} />
+              <Image src="/assets/img2.png"  alt="image2"  width={370} height={225} />
             </div>
           </div>
           <div className="flex justify-end">
-            <Link href="/projectss"><button className="flex flex-row w-[250px] bg-black h-[70px] items-center mt-18"><h3 className="mx-4 text-white">ALL PROJECTS</h3> <Image src="/assets/flechadb.png" width={50} height={20} /></button></Link>
+            <Link href="/projectss"><button className="flex flex-row w-[250px] bg-black h-[70px] items-center mt-18"><h3 className="mx-4 text-white">ALL PROJECTS</h3> <Image src="/assets/flechadb.png" alt="flecha" width={50} height={20} /></button></Link>
           </div>
         </div>
         <div className="flex flex-col w-[85%] m-[7.5%] ">
@@ -129,11 +129,11 @@ export default function Home() {
               </div>
             </div>
             <div >
-              <Image src='/assets/img6.png'  alt="img6"  width={749} height={369} />
+              <Image src="/assets/img6.png"  alt="img6"  width={749} height={369} />
             </div>
           </div>
           <div>
-            <button className="flex flex-row w-[250px] bg-black h-[70px] items-center mt-18"><h3 className="mx-4 text-white">SEND EMAIL</h3> <Image src="/assets/flechadb.png" width={50} height={20} /></button>
+            <button className="flex flex-row w-[250px] bg-black h-[70px] items-center mt-18"><h3 className="mx-4 text-white">SEND EMAIL</h3> <Image src="/assets/flechadb.png" alt="flecha blanca" width={50} height={20} /></button>
           </div>
         </div>
       </main>

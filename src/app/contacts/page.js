@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Nav from "../components/nav"
 import Footer from "../components/footer";
 
@@ -33,8 +32,6 @@ export default function Contacts() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-
-
           </div>
         </div>
       </main>
