@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <div className="w-[70%] ml-40 bg-gray-200">
             <Image src="/assets/image1.png" alt="image1" width={770} height={829} />
-            <button className="flex flex-row w-[250px] bg-white h-[70px] items-center mt-18 absolute top-190"><h3 className="mx-4">VIEW PROJECT</h3> <Image src="/assets/flechad.png" width={20} height={20} /></button>
+            <button className="flex flex-row w-[250px] bg-white h-[70px] items-center mt-18 absolute top-190"><h3 className="mx-4">VIEW PROJECT</h3> <Image src="/assets/flechad.png" alt="flecha blanca" width={20} height={20} /></button>
           </div>
         </div>
         <div className="bg-gray-50 m-12 w-[85%] flex flex-row mx-[7.5%]">
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
           <div className="w-1/3 py-8">
             <h1 className="text-5xl text-gray-300">About</h1>
-            <p className="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p className="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             <button className="flex flex-row w-[250px] bg-white h-[70px] items-center mt-18"><h3 className="mx-4">READ MORE</h3> <Image src="/assets/flechad.png" alt="flecha derecha" width={20} height={20} /></button>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function Home() {
                 <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
                 <h1 className="text-white text-6xl"><strong>Project</strong></h1>
                 <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
-                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                  <Image className="ml-2" src="/assets/flechadb.png" alt="flecha blanca" width={25} height={25} />
                 </Link>
               </div>
               <Image src="/assets/img4.png"  alt="image4" width={270} height={225} />
