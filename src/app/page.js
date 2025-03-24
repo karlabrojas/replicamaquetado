@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Nav from "./components/nav"
-import Footer from "./components/footer"
+import Nav from "./components/nav";
+import Footer from "./components/footer";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -103,7 +103,7 @@ export default function Home() {
                 <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
                 <h1 className="text-white text-6xl"><strong>Project</strong></h1>
                 <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
-                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                  <Image className="ml-2" src="/assets/flechadb.png" alt="flecha blanca 1" width={25} height={25} />
                 </Link>
               </div>
               <Image src='/assets/img2.png'  alt="image2"  width={370} height={225} />

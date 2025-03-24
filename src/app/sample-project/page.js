@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Nav from "../components/nav"
+import Nav from "../components/nav";
 import Footer from "../components/footer";
 
 export default function SampleProjects() {
@@ -31,5 +31,5 @@ export default function SampleProjects() {
             </main>
             <Footer />
         </div>
-    )
+    );
 }

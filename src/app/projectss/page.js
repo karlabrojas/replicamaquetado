@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Nav from "../components/nav"
+import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Link from "next/link";
 export default function Projects() {
@@ -52,5 +52,5 @@ export default function Projects() {
       </main >
       <Footer />
     </div >
-  )
+  );
 }
