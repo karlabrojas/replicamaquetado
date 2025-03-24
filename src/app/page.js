@@ -27,9 +27,9 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-gray-50 m-12 w-[85%] flex flex-row mx-[7.5%]">
-          <div className="flex flex-col w-[35%]  pl-20 pr-8 pt-8">
+          <div className="flex flex-col w-[35%]  pl-20 pr-4 pt-8">
             <Image src="/assets/image2.png" alt="image2"  width={270} height={265} />
-            <Image className="absolute top-300" src="/assets/image3.png"  alt="image3"  width={270} height={140} />
+            <Image className="absolute top-325" src="/assets/image3.png"  alt="image3"  width={270} height={140} />
           </div>
           <div className="flex mr-8 justify-center py-12 w-[25%]">
             <Image src="/assets/image4.png"  alt="image4"  width={270} height={345} />

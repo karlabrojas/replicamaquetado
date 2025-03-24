@@ -12,7 +12,7 @@ export default function Certifications() {
           <h1 className="text-5xl my-2"><strong>Certifications</strong></h1>
           <hr className="border-gray-200"></hr>
         </div>
-        <div className="h-24">
+        <div className="h-14">
 
         </div>
         </main>
