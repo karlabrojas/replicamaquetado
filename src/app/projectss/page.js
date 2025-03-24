@@ -14,7 +14,7 @@ export default function Projects() {
         </div>
         <div className="w-[85%] mx-[7.5%] mt-8" >
           <div className=" flex flex-row bg-gray-50 mt-8">
-            <Image src="/assets/project1.png" width={670} height={435} />
+            <Image src="/assets/project1.png" alt="project 1" width={670} height={435} />
             <div className="w-[40%] flex flex-col p-12">
               <h1 className="text-5xl text-gray-300">Sample Project</h1>
               <p className="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
@@ -22,7 +22,7 @@ export default function Projects() {
             </div>
           </div>
           <div className=" flex flex-row bg-gray-50 mt-8">
-            <Image src="/assets/project2.png" width={670} height={435} />
+            <Image src="/assets/project2.png" alt="project 2" width={670} height={435} />
             <div className="w-[40%] flex flex-col p-12">
               <h1 className="text-5xl text-gray-300">Sample Project 2</h1>
               <p className="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
@@ -30,7 +30,7 @@ export default function Projects() {
             </div>
           </div>
           <div className=" flex flex-row bg-gray-50 mt-8">
-            <Image src="/assets/project3.png" width={670} height={435} />
+            <Image src="/assets/project3.png" alt="project 3" width={670} height={435} />
             <div className="w-[40%] flex flex-col p-12">
               <h1 className="text-5xl text-gray-300">Sample Project 3</h1>
               <p className="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
@@ -45,8 +45,8 @@ export default function Projects() {
             <h3 className="text-lg text-gray-300 my-2"> 05 </h3>
           </div>
           <div className="flex flex-row justify-between mx-5 w-[100px] my-12">
-            <button className="border p-2 border-gray-300"><Image src="/assets/flechai.png" width={20} height={20} /></button>
-            <button className="border p-2 bg-gray-50 border-gray-300"><Image src="/assets/flechad.png" width={20} height={20} /></button>
+            <button className="border p-2 border-gray-300"><Image src="/assets/flechai.png" alt="flecha izquierda 1" width={20} height={20} /></button>
+            <button className="border p-2 bg-gray-50 border-gray-300"><Image src="/assets/flechad.png" alt="flecha derecha 1" width={20} height={20} /></button>
           </div>
         </div>
       </main >

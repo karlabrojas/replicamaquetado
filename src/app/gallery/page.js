@@ -13,18 +13,18 @@ export default function Gallery() {
         </div>
         <div className="flex flex-col w-[85%] mx-[7.5%] ">
           <div className="flex flex-row justify-between mt-8">
-            <Image src="/assets/gallery1.png" width={210} height={260} />
-            <Image src="/assets/gallery2.png" width={210} height={260} />
-            <Image src="/assets/gallery3.png" width={210} height={260} />
-            <Image src="/assets/gallery4.png" width={210} height={260} />
-            <Image src="/assets/gallery5.png" width={210} height={260} />
+            <Image src="/assets/gallery1.png" alt="galley img 1" width={210} height={260} />
+            <Image src="/assets/gallery2.png" alt="galley img 2" width={210} height={260} />
+            <Image src="/assets/gallery3.png" alt="galley img 3" width={210} height={260} />
+            <Image src="/assets/gallery4.png" alt="galley img 4" width={210} height={260} />
+            <Image src="/assets/gallery5.png" alt="galley img 5" width={210} height={260} />
           </div>
           <div className="flex flex-row justify-between mt-8">
-            <Image src="/assets/gallery6.png" width={210} height={260} />
-            <Image src="/assets/gallery7.png" width={210} height={260} />
-            <Image src="/assets/gallery8.png" width={210} height={260} />
-            <Image src="/assets/gallery9.png" width={210} height={260} />
-            <Image src="/assets/gallery10.png" width={210} height={260} />
+            <Image src="/assets/gallery6.png" alt="galley img 6" width={210} height={260} />
+            <Image src="/assets/gallery7.png" alt="galley img 7" width={210} height={260} />
+            <Image src="/assets/gallery8.png" alt="galley img 8" width={210} height={260} />
+            <Image src="/assets/gallery9.png" alt="galley img 9" width={210} height={260} />
+            <Image src="/assets/gallery10.png" alt="galley img 10" width={210} height={260} />
           </div>
         </div>
         <div className="flex flex-row w-[85%] mx-[7.5%]">
@@ -34,8 +34,8 @@ export default function Gallery() {
             <h3 className="text-lg text-gray-300 my-2"> 05 </h3>
           </div>
           <div className="flex flex-row justify-between mx-5 w-[100px] my-12">
-            <button className="border p-2 border-gray-300"><Image src="/assets/flechai.png" width={20} height={20} /></button>
-            <button className="border p-2 bg-gray-50 border-gray-300"><Image src="/assets/flechad.png" width={20} height={20} /></button>
+            <button className="border p-2 border-gray-300"><Image src="/assets/flechai.png" alt="flecha izquierda 1" width={20} height={20} /></button>
+            <button className="border p-2 bg-gray-50 border-gray-300"><Image src="/assets/flechad.png" alt="flecha derecha 1" width={20} height={20} /></button>
           </div>
         </div>
       </main>

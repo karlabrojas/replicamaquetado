@@ -12,8 +12,8 @@ export default function Home() {
             <h1 className="text-6xl font-thin text-gray-400 my-2">PROJECT</h1>
             <h1 className="text-5xl my-2"><strong>Lorum</strong></h1>
             <div className="flex flex-row justify-between w-[100px] my-12">
-              <button className="border p-2 border-gray-300"><Image src="/assets/flechai.png" width={20} height={20} /></button>
-              <button className="border p-2 bg-gray-50 border-gray-300"><Image src="/assets/flechad.png" width={20} height={20} /></button>
+              <button className="border p-2 border-gray-300"><Image src="/assets/flechai.png" alt="flecha izquierda" width={20} height={20} /></button>
+              <button className="border p-2 bg-gray-50 border-gray-300"><Image src="/assets/flechad.png"  alt="flecha derecha"  width={20} height={20} /></button>
             </div>
             <div className="flex flex-row w-[120px] justify-between">
               <h3 className="text-lg text-gray-300 my-4"> 01 </h3>
@@ -22,17 +22,17 @@ export default function Home() {
             </div>
           </div>
           <div className="w-[70%] ml-40 bg-gray-200">
-            <Image src="/assets/image1.png" alt="" width={770} height={829} />
+            <Image src="/assets/image1.png" alt="image1" width={770} height={829} />
             <button className="flex flex-row w-[250px] bg-white h-[70px] items-center mt-18 absolute top-190"><h3 className="mx-4">VIEW PROJECT</h3> <Image src="/assets/flechad.png" width={20} height={20} /></button>
           </div>
         </div>
         <div className="bg-gray-50 m-12 w-[85%] flex flex-row mx-[7.5%]">
           <div className="flex flex-col w-[35%]  pl-20 pr-8 pt-8">
-            <Image src="/assets/image2.png" width={270} height={265} />
-            <Image className="absolute top-300" src="/assets/image3.png" width={270} height={140} />
+            <Image src="/assets/image2.png" alt="image2"  width={270} height={265} />
+            <Image className="absolute top-300" src="/assets/image3.png"  alt="image3"  width={270} height={140} />
           </div>
           <div className="  flex mr-8 justify-center py-12 w-[25%]">
-            <Image src="/assets/image4.png" width={270} height={345} />
+            <Image src="/assets/image4.png"  alt="image4"  width={270} height={345} />
           </div>
           <div className="w-1/3 py-8">
             <h1 className="text-5xl text-gray-300">About</h1>
@@ -61,20 +61,20 @@ export default function Home() {
                 <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
                 <h1 className="text-white text-6xl"><strong>Project</strong></h1>
                 <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
-                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                  <Image className="ml-2"  alt="flecha derecha blanca"  src="/assets/flechadb.png" width={25} height={25} />
                 </Link>
               </div>
-              <Image src="/assets/img5.png" width={570} height={225} />
+              <Image src="/assets/img5.png"  alt="img 5"  width={570} height={225} />
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
                 <h1 className="text-white text-6xl"><strong>Sample</strong></h1>
                 <h1 className="text-white text-6xl"><strong>Project</strong></h1>
                 <Link className="flex flex-row items-center mt-4 text-white text-[15px]" href="/sample-project">  VIEW MORE
-                  <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
+                  <Image className="ml-2"  alt="flecha derecha blanca" src="/assets/flechadb.png" width={25} height={25} />
                 </Link>
               </div>
-              <Image src="/assets/img1.png" width={570} height={225} />
+              <Image src="/assets/img1.png"   alt="img1"  width={570} height={225} />
             </div>
           </div>
           <div className="flex flex-row justify-between mt-8">
@@ -86,7 +86,7 @@ export default function Home() {
                   <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
                 </Link>
               </div>
-              <Image src='/assets/img4.png' width={270} height={225} />
+              <Image src='/assets/img4.png'  alt="image4" width={270} height={225} />
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
@@ -96,7 +96,7 @@ export default function Home() {
                   <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
                 </Link>
               </div>
-              <Image src='/assets/img3.png' width={470} height={225} />
+              <Image src='/assets/img3.png' alt="img3"  width={470} height={225} />
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-8">
@@ -106,7 +106,7 @@ export default function Home() {
                   <Image className="ml-2" src="/assets/flechadb.png" width={25} height={25} />
                 </Link>
               </div>
-              <Image src='/assets/img2.png' width={370} height={225} />
+              <Image src='/assets/img2.png'  alt="image2"  width={370} height={225} />
             </div>
           </div>
           <div className="flex justify-end">
@@ -129,7 +129,7 @@ export default function Home() {
               </div>
             </div>
             <div >
-              <Image src='/assets/img6.png' width={749} height={369} />
+              <Image src='/assets/img6.png'  alt="img6"  width={749} height={369} />
             </div>
           </div>
           <div>

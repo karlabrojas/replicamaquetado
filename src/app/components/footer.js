@@ -19,26 +19,26 @@ export default function Footer() {
                 <div className="w-[25%] px-12 flex flex-col mt-8">
                     <h1><strong>Contacts</strong></h1>
                     <div className="flex flex-row my-8">
-                        <Image className="h-[20px]" src="/assets/location.png" width={20} height={2} />
+                        <Image className="h-[20px]" src="/assets/location.png" alt="location" width={20} height={2} />
                         <p className="ml-2">1234 Sample Street
                             Austin Texas 78704</p>
                     </div>
                     <div className="flex flex-row my-8">
-                        <Image className="h-[20px]" src="/assets/phone.png" width={20} height={4} />
+                        <Image className="h-[20px]" src="/assets/phone.png" alt="phone" width={20} height={4} />
                         <p className="ml-2">512.333.2222</p>
                     </div>
                     <div className="flex flex-row my-8">
-                        <Image className="h-[18px]" src="/assets/email.png" width={20} height={4} />
+                        <Image className="h-[18px]" src="/assets/email.png" alt="email" width={20} height={4} />
                         <p className="ml-2">sampleemail@gmail.com</p>
                     </div>
                 </div>
                 <div className="w-[35%] px-12 flex flex-col mt-8">
                     <h1><strong>Information</strong></h1>
                     <div className="flex flex-row mt-8">
-                        <Image className="mx-4" src="/assets/fb.png" width={10} height={10} />
-                        <Image className="mx-4" src="/assets/tw.png" width={10} height={10} />
-                        <Image className="mx-4" src="/assets/lk.png" width={10} height={10} />
-                        <Image className="mx-4" src="/assets/pt.png" width={10} height={10} />
+                        <Image className="mx-4" src="/assets/fb.png" alt="facebook 1" width={10} height={10} />
+                        <Image className="mx-4" src="/assets/tw.png" alt="twitter 1" width={10} height={10} />
+                        <Image className="mx-4" src="/assets/lk.png" alt="linkedin 1" width={10} height={10} />
+                        <Image className="mx-4" src="/assets/pt.png" alt="pinterest 1" width={10} height={10} />
                     </div>
                 </div>
                 
